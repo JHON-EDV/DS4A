@@ -46,10 +46,25 @@ Final data structure for train and test datasets is shown below. In our case, ju
 
 The initial proposed model is composed of five layers, the first 4 layers have also a dropout regularization layer with rate of 0.2  that helps to avoid overfitting and improve model performance. Model structure is shown in the following image.
 
+![Architecture model](https://i.pinimg.com/564x/ce/57/d5/ce57d55564fd7997f46e397bf0944e16.jpg)
+
+
+### Metrics
+
+Batch size: 64 (weekly model)
+Epochs:  200
 
 | MAE | MSE |![equation](https://latex.codecogs.com/svg.image?r^{2}) |
 | ------ | ------ |------ |
 | 23.963 | 885.322| -0.131 |
+
+### Results
+![result training](https://i.pinimg.com/originals/4b/ac/99/4bac9920045089266171d28c7af74c06.jpg)
+
+
+# Repo
+In this repository you will find all the steps carried out in EDA as well as in the construction of the LSTM model, as well as all the databases with which we work.
+
 # _Thanks to_:
 - The entire team of DS4A Colombia.
 - Mayor of Bucaramanga
