@@ -18,3 +18,10 @@ Our solution will be identify the principal areas and risks situations for multi
 The problems in Bucaramanga and its Metropolitan Area are violating the rights of civil society, generating a decrease in the quality of life of the population and, as a consequence, they only contribute more to the resurgence of violence. 
 
 Therefore, this problem matters because identifying the areas with the greatest problems of insecurity and inequality can allow a diagnosis and, in turn, make decisions based on social and economic indices and improve the life quality of the metropolitan area of Bucaramanga.
+
+## Features
+
+- Interactive dashboard observe the classifications of people's vulnerabilities according to their population and territorial characteristics
+- Dashboard with the classifications of the vulnerabilities of the people in the territory of Bucaramanga, the geolocation is carried out on average to the SISBEN classification.
+- LSTM model based on corrective actions, with weekly time window
+
