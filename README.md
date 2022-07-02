@@ -22,6 +22,39 @@ Therefore, this problem matters because identifying the areas with the greatest 
 ## Features
 
 - Interactive dashboard observe the classifications of people's vulnerabilities according to their population and territorial characteristics
-- Dashboard with the classifications of the vulnerabilities of the people in the territory of Bucaramanga, the geolocation is carried out on average to the SISBEN classification.
+- Interactive Dashboard with the classifications of the vulnerabilities of the people in the territory of Bucaramanga, the geolocation is carried out on average to the SISBEN classification.
+- Interactive dashboard with the population and territorial characteristics of the people who have been given corrective measures by the police.
+- Interactive dashboard population and territorial characteristics of people who have committed crimes in the municipality of Bucaramanga.
+-  Interactive dashboard the population and territorial characteristics of the people who have died in the municipality of Bucaramanga.
+-  Interactive dashboard with the corrective measures generated over time in the different neighborhoods are presented, a heat map is also associated where the most critical areas can be identified in red
 - LSTM model based on corrective actions, with weekly time window
+
+
+
+## Dash board 
+
+
+## _Model_
+
+To forecast the variables over time, the use of an LSTM network is proposed, which is a type of Recurrent Neural Network (RNN). LSTM models are capable of predicting a value from previous states given as inputs. Data processing, model and results are shown below.
+
+Windows sizes for daily and weekly models are set in  60 days and 15 weeks respectively. 
+
+Final data structure for train and test datasets is shown below. In our case, just one feature (events count) is considered.
+
+# _Architecture_:
+
+The initial proposed model is composed of five layers, the first 4 layers have also a dropout regularization layer with rate of 0.2  that helps to avoid overfitting and improve model performance. Model structure is shown in the following image.
+
+
+| MAE | MSE |![equation](https://latex.codecogs.com/svg.image?r^{2}) |
+| ------ | ------ |------ |
+| 23.963 | 885.322| -0.131 |
+# _Thanks to_:
+- The entire team of DS4A Colombia.
+- Mayor of Bucaramanga
+- National Police
+
+> "If I have seen further it is because I am sitting on the shoulders of giants"
+> Sir Isaac Newton
 
